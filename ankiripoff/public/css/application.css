@@ -1,4 +1,7 @@
-
+body {
+  /*background: url('../skulls.png') repeat;*/
+  background-color: #ecf0f1;
+}
 /*.container {
     margin: 20px auto;
     }*/
@@ -24,6 +27,10 @@
 .button {
   float: left;
   padding-left: 60px;
+  font-family: Helvetica;
+  border-radius: 15px;
+  border: none;
+
 
 }
 
@@ -74,9 +81,9 @@ th {
   color: blue;
 }
 
-body {
+/*body {
   background-color: white;
-}
+}*/
 
 .rules {
   text-align: center;
@@ -84,15 +91,13 @@ body {
 
 }
 
-.rules p {
-  color: white;
-}
 
 header {
-  background: #595959;
-  padding: 15px 0 15px 50px;
+  background: #ff0084;
+  padding: 35px 0 15px 50px;
   color: white;
-  font-size: 20px;
+  font-size: 35px;
+  height: 50px;
 }
 
 #exit {
@@ -107,4 +112,38 @@ header {
 
 h1 {
   margin: 0 0 47px 0;
+}
+
+.counter {
+  width: 200px;
+  margin-left: 10px;
+}
+
+.slogan {
+  text-align: center;
+  color: green;
+}
+
+.first_button {
+  background-color: #0063dc;
+  font-family: Helvetica;
+  font-size: 50px;
+  margin: 150px;
+  color: white;
+  border-radius: 15px;
+  width: 400px;
+  height: 150px;
+  border: none;
+}
+
+.second_button {
+  background-color: #0063dc;
+  margin: -300pxpx;
+  font-family: Helvetica;
+  border-radius: 15px;
+  border: none;
+  font-size: 50px;
+  color: white;
+  width: 400px;
+  height: 150px;
 }

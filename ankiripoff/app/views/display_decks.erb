@@ -7,7 +7,7 @@
 </header>
 
 <ul id="card_decks">
-<% @decks.shuffle.each do |deck| %>
+<% @decks.each do |deck| %>
   <li>
     <a href="/play/<%= deck.id %>" alt="<%= deck.id %>"> <%= deck.topic %></a>
   </li>

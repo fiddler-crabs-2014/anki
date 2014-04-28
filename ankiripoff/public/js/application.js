@@ -12,7 +12,18 @@ $(document).ready(function() {
   $('.answer').show();
 
   });
-  
+
+  var x = 0;
+  function increase() {
+  x += 1;
+  document.getElementById( "counting" ).value = x;
+  }
+
+  function decrease() {
+  x -= 1;
+  document.getElementById( "counting" ).value = x;
+  }
+
 
   // See: http://docs.jquery.com/Tutorials:Introducing_$(document).ready()
 });
@@ -21,7 +32,7 @@ $(document).ready(function() {
 $(document).keypress(function(event){
 
   var keycode = (event.keyCode ? event.keyCode : event.which);
-  
+
   if(keycode == '114'){
     window.location.href='/register';
   }
@@ -29,4 +40,8 @@ $(document).keypress(function(event){
   if(keycode == '101'){
     window.location.href='/';
     }
+
+  if(keycode == '112'){
+      window.location.href='/display_decks';
+      }
 });
